@@ -1,0 +1,25 @@
+.content {
+   display: flex;
+   justify-content: center;
+   height: 80vh;
+   width: 100vw; 
+   background-color: aqua; /*COLORS FOR VISUALIZATION PURPOSES, DELETE LATER*/
+}
+
+.content-group {
+    display: flex;
+    align-items: center;
+}
+
+#big-logo {
+   background-color: red; /*COLORS FOR VISUALIZATION PURPOSES, DELETE LATER*/
+
+}
+
+#search-bar-div {
+    background-color: green; /*COLORS FOR VISUALIZATION PURPOSES, DELETE LATER*/
+}
+
+#buttons {
+   background-color: purple; /*COLORS FOR VISUALIZATION PURPOSES, DELETE LATER*/
+}
