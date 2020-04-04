@@ -9,17 +9,43 @@
 .content-group {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    padding-top: 6rem;
+    width: 80%;
+    background-color: orange; /*COLORS FOR VISUALIZATION PURPOSES, DELETE LATER*/
 }
-
+/* LOGO */
 #big-logo {
-   background-color: red; /*COLORS FOR VISUALIZATION PURPOSES, DELETE LATER*/
-
+    background-color: red; /*COLORS FOR VISUALIZATION PURPOSES, DELETE LATER*/
+    width: 60%;
+    font-size: 4em; /*Adjust*/
 }
 
+/* SEARCH BAR */
 #search-bar-div {
     background-color: green; /*COLORS FOR VISUALIZATION PURPOSES, DELETE LATER*/
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+input[type="text"] {
+    border: solid 2px orchid; /*COLORS FOR VISUALIZATION PURPOSES, DELETE LATER*/
+    border-radius: 4px;
+    padding: 0.25rem;
+    height: 2rem;
+    width: 90%;
+}
+
+/* BUTTONS */
 #buttons {
    background-color: purple; /*COLORS FOR VISUALIZATION PURPOSES, DELETE LATER*/
+    padding-top: 1rem;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
