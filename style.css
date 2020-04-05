@@ -1,3 +1,7 @@
+/* IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*Roboto Font*/
+
+
 /* GLOBAL */
 a {
     color: inherit;
@@ -19,6 +23,7 @@ body {
     top: 0px;
     bottom: 0px;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* HEADER */
@@ -84,6 +89,12 @@ header li {
     align-items: center;
 }
 
+#search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 input[type="text"] {
     border: solid 1px #dfe1e5; 
     background-image: url(mag-glass.png);
@@ -94,12 +105,19 @@ input[type="text"] {
     padding: 0.30rem;
     padding-left: 2.5rem;
     line-height: 16px;
-    height: 2rem;
-    width: 90%;
+    height: 32px;
+    width: 440px;
+    position: relative;
 }
 
 input[type="text"]:hover {
     box-shadow: 0px 0px 5px rgba(144, 144, 144, 0.66);
+}
+
+#microphone {
+    position: relative;
+    right: 40px;
+    height: 20px;
 }
 
 /* BUTTONS */
@@ -134,7 +152,7 @@ input[type="text"]:hover {
 /*LANGUAGE SUGGESTION*/
 #language-suggestion {
     margin-top: 1rem;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #language-suggestion a {
@@ -163,11 +181,11 @@ footer ul {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 footer li {
-    margin-left: 1.25rem;
+    margin-left: 1.5rem;
 }
 
 .footer-divs {

@@ -14,22 +14,22 @@
             <ul>
                 <li><a href="#">Gmail</a></li>
                 <li><a href="#">Images</a></li>
-                <li><a href="#"><img src="menu.png" alt="menu icon" id="menu-icon" onmouseover="hover(this);" onmouseout="unhover(this);"></a></li>
+                <li><a href="#"><img src="menu.png" alt="menu icon" id="menu-icon" onmouseover="hoverMenu(this);" onmouseout="unhoverMenu(this);"></a></li>
                 <li><a href="#"><img src="user-color.png" alt="user profile icon" id="user-icon"></a></li>
             </ul>
         </header>
        <section class="content">
         <div class="content-group">
             <div id="big-logo">
-                <!--Need to recreate the google logo but change it to say Ask Pat-->
                 <img src="google-logo.png" alt="Google logo">
             </div>
             <div id="search-bar-div">
-                <!--Need to create a search bar-->
-                <input type="text" placeholder="Search..." id="search-bar">
+                <form action="#" id="search-form">
+                    <input type="text" placeholder="Search..." id="search-bar">
+                    <a href="#"><img src="microphone-black.png" alt="microphone" id="microphone" onmouseover="hoverMicrophone(this);" onmouseout="unhoverMicrophone(this);"></a>
+                </form>
             </div>
             <div id="buttons">
-                <!--Need to create two buttons (Search + I'm feeling lucky)-->
                 <input type="submit" class="button" value="Search Google" id="search-button">
                 <input type="submit" class="button" value="I'm Feeling Lucky" id="feeling-lucky-button">
             </div>
@@ -41,7 +41,6 @@
         </div>
        </section>
         <footer>
-            <!--The footer should contain the country on the left and privacy, terms, and settings on the right-->
             <div id="footer-top" class="footer-divs">
                 <ul>
                     <li>United States</li>
