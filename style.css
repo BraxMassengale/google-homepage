@@ -11,7 +11,7 @@
     flex-direction: column;
     padding: 1rem;
     padding-top: 6rem;
-    width: 80%;
+    width: 500px;
 }
 /* LOGO */
 #big-logo {
@@ -51,7 +51,54 @@ input[type="text"] {
 
 .button {
     border: none;
-    padding: 0.5rem 1rem;
-    background-color: seagreen; /*COLORS FOR VISUALIZATION PURPOSES, DELETE LATER*/
-    color: white; /*COLORS FOR VISUALIZATION PURPOSES, DELETE LATER*/
+    padding: 0 16px;
+    background-color:#f2f2f2; 
+    color: #5F6368;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    user-select: none;
+    margin: 11px 4px;
+    height: 36px;
+    border: 1px solid #f2f2f2;
+}
+
+.button:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+    color: #222; 
+}
+
+
+/*TESTING*/
+footer {
+    background-color: #f2f2f2; 
+    height: 10vh;
+    text-align: left;
+    color: rgba(0,0,0,.54);
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 16px;
+}
+
+footer li {
+    margin-left: 1.25rem;
+}
+
+
+header {
+    background-color: red;
+    height: 10vh;
+}
+
+.footer-divs {
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
 }
